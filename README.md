@@ -11,8 +11,8 @@ It must accept date in 2 formats: Date() object and string in 'DD.MM.YYYY';
 Example:
 ```js
     getDaysToNewYear(new Date(2021, 11, 31)); // 1
-    getDaysToNewYear(new Date(2021, 5, 15)); // 201
-    getDaysToNewYear('22.04.2020'); // 620
+    getDaysToNewYear(new Date(2021, 5, 15)); // 200
+    getDaysToNewYear('22.04.2020'); // 619
 ```
 
 #### Last to first.
