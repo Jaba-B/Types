@@ -36,7 +36,7 @@ Example:
 #### Group organization users
 You have an organization with 2 types of users EMPLOYEE and CONTRACTOR.
 Create function to group an array of users to `{emproyees: [], contractors: []}`
-For example data and expected result look at comments in src/index.ts.
+Example of data and expected result look at comments in src/index.ts.
 
 *Remember please, that the main focus is on types and typescript features, so you should describe all possible types using mock data.* 
 
