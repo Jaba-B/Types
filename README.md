@@ -10,11 +10,11 @@ Write your code in `src/index.ts.
 
 ## Tasks
 
-#### Days to New Year.
+#### Days to New Year
 
-Write a function to calculate days left until New Year based on current year.
+Write a function to calculate the days left until New Year based on current year.
 
-It must accept date in 2 formats: Date() object and string in 'DD.MM.YYYY';
+It must accept the date in 2 formats: Date() object and string in 'DD.MM.YYYY';
 
 Example:
 ```js
@@ -23,8 +23,8 @@ Example:
     getDaysToNewYear('22.04.2020'); // 619
 ```
 
-#### Last to first.
-Write a function to change the position of first and last characters in given string.
+#### Last to first
+Write a function to change the position of the first and the last characters in the given string.
 
 Example:
 ```js
@@ -33,9 +33,9 @@ Example:
     lastToFirst('a'); // a;
 ```
 
-#### Group organization users.
-You have organization with 2 types of users EMPLOYEE and CONTRACTOR;
-You should create function to group array of users to `{emproyees: [], contractors: []}`
+#### Group organization users
+You have an organization with 2 types of users EMPLOYEE and CONTRACTOR.
+Create function to group an array of users to `{emproyees: [], contractors: []}`
 For example data and expected result look at comments in src/index.ts.
 
 *Remember please, that the main focus is on types and typescript features, so you should describe all possible types using mock data.* 
