@@ -1,5 +1,13 @@
 # Types
 
+## ⚠ Notice
+***Main focus of this course is TypeScript so you must declare all types for complex structures, function arguments and return values e.t.c***
+
+***Type `any` is strictly prohibited!***
+
+Write your code in `src/index.ts.
+*All test cases are designed as “error-free”, so don't worry about handling any errors.*
+
 ## Tasks
 
 #### Days to New Year.
@@ -31,15 +39,6 @@ You should create function to group array of users to `{emproyees: [], contracto
 For example data and expected result look at comments in src/index.ts.
 
 *Remember please, that the main focus is on types and typescript features, so you should describe all possible types using mock data.* 
-
-
-## ⚠ Notice
-***Main focus of that course is TypeScript so you must declare all types for complex structures, function arguments\return values e.t.c***
-
-***Any types are strictly prohibited!***
-
-Write your code in `src/index.ts.
-*All test cases are designed as “error-free”, so don't worry about handling any errors.*
 
 ## Prepare and test
 1. Install [Node.js](https://nodejs.org/en/download/)   
