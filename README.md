@@ -38,7 +38,7 @@ You have an organization with 2 types of users EMPLOYEE and CONTRACTOR.
 Create function to group an array of users to `{emproyees: [], contractors: []}`
 Example of data and expected result look at comments in src/index.ts.
 
-*Remember please, that the main focus is on types and typescript features, so you should describe all possible types using mock data.* 
+*Please remember, that the main focus is on types and typescript features, so you should describe all possible types using mock data.* 
 
 ## Prepare and test
 1. Install [Node.js](https://nodejs.org/en/download/)   
