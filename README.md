@@ -12,9 +12,9 @@ Write your code in `src/index.ts.
 
 #### Days to New Year
 
-Write a function to calculate the days left until New Year based on current year.
+Write a function to calculate the days left until New Year based on the current year.
 
-It must accept the date in 2 formats: Date() object and string in 'DD.MM.YYYY';
+It must accept the date in 2 formats: Date() object and a string in 'DD.MM.YYYY';
 
 Example:
 ```js
