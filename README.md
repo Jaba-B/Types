@@ -12,14 +12,14 @@ Write your code in `src/index.ts.
 
 #### Days to New Year
 
-Write a function to calculate the days left until New Year based on the current year.
+Write a function to calculate the days left until 21.12.2021.
 
 It must accept the date in 2 formats: Date() object and a string in 'DD.MM.YYYY';
 
 Example:
 ```js
-    getDaysToNewYear(new Date(2021, 11, 31)); // 1
-    getDaysToNewYear(new Date(2021, 5, 15)); // 200
+    getDaysToNewYear(new Date(2021, 12, 31)); // 1
+    getDaysToNewYear(new Date(2021, 5, 15)); // 230
     getDaysToNewYear('22.04.2020'); // 619
 ```
 
