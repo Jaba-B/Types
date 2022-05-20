@@ -12,7 +12,7 @@ Write your code in `src/index.ts.
 
 #### Days to New Year
 
-Write a function to calculate the days left until 21.12.2021.
+Write a function to calculate the days left until 31.12.2021.
 
 It must accept the date in 2 formats: Date() object and a string in 'DD.MM.YYYY';
 
