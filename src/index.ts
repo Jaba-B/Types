@@ -2,8 +2,18 @@
 * Task 1: Days to New Year
 */
 function getDaysToNewYear(date) {
-    // Your implementation here
-    throw new Error('Not implemented');
+    if(typeof(date) === 'object') {
+        // let newYear = new Date(2022,01,01);
+        let newYear = new Date(2022,0o1,0o1);
+        let result = (newYear - date) / (1000 * 3600 * 24);
+        return result
+      } else {
+        let newYear = new Date('01,01,2022');
+        let dateParts = date.split(".");
+        let dateObject = new Date(dateParts[2], dateParts[1] - 1, dateParts[0]);
+        let result = (newYear - dateObject) / (1000 * 3600 * 24);
+        return result
+      }
 }
 
 /*
